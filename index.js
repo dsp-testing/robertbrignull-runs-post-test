@@ -1,4 +1,4 @@
-const sleepTime =  process.env['INPUT_SLEEP_TIME'];
+const sleepTime = parseInt(process.env['INPUT_SLEEP_TIME']);
 
 console.log(`Going to sleep for ${sleepTime} minutes`);
 setTimeout(() => {
