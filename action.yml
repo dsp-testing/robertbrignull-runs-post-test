@@ -1,0 +1,11 @@
+name: 'Runs post test'
+description: 'Test of runs.post'
+inputs:
+  sleep-time:
+    description: 'How long to sleep'
+    required: false
+    default: '2'
+runs:
+  using: 'node16'
+  main: 'index.js'
+  post: 'post.js'
