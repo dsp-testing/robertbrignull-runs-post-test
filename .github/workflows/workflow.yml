@@ -1,0 +1,10 @@
+name: "Test workflow"
+
+on:
+  push:
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: dsp-testing/robertbrignull-runs-post-test@main
