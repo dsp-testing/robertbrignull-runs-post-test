@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: dsp-testing/robertbrignull-runs-post-test@main
+      with:
+        sleep-time: 6
