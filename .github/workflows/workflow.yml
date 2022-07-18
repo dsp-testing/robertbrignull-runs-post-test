@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: dsp-testing/robertbrignull-runs-post-test@main
       with:
-        sleep-time: 6
+        sleep-time: 1000
