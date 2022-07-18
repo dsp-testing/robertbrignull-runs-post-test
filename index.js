@@ -1,4 +1,4 @@
-const sleepTimeStr = process.env['INPUT_SLEEP_TIME'];
+const sleepTimeStr = process.env['INPUT_SLEEP-TIME'];
 console.log(`Sleep time = ${sleepTimeStr}`);
 const sleepTime = parseInt(sleepTimeStr);
 
